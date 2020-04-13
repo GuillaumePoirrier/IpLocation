@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Ip Location",
+    "description": "Locate Yourself !",
+    "version": "0.0.4",
+    "icons": {
+        "24": "img/icon/icon-24.png",
+        "48": "img/icon/icon-48.png",
+        "64": "img/icon/icon-64.png",
+        "128": "img/icon/icon-128.png",
+        "256": "img/icon/icon-256.png"
+    },
+    "permissions": [],
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "background": {
+        "scripts": [
+            "background/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "img/icon/icon-64.png",
+        "default_popup": "popup/popup.html"
+    }
+}

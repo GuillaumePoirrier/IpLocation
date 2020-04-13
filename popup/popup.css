@@ -1,0 +1,53 @@
+body {
+    height: 360px;
+    width: 270px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    background-color: #f1f1f1;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#map {
+    margin-top: 10px;
+    width: 263px;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 260px;
+}
+
+th,
+td {
+    padding: 4px;
+    text-align: left;
+    border: 1px solid darkgray;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+#loading {
+    margin: auto;
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+    padding: 2px;
+}
+
+th {
+    background-color: lightgrey;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
